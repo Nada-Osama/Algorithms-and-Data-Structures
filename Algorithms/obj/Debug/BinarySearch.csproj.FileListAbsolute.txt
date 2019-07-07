@@ -1,0 +1,6 @@
+E:\nada\Visual Studio 2017\Projects\BinarySearch\BinarySearch\bin\Debug\BinarySearch.exe.config
+E:\nada\Visual Studio 2017\Projects\BinarySearch\BinarySearch\bin\Debug\BinarySearch.exe
+E:\nada\Visual Studio 2017\Projects\BinarySearch\BinarySearch\bin\Debug\BinarySearch.pdb
+E:\nada\Visual Studio 2017\Projects\BinarySearch\BinarySearch\obj\Debug\BinarySearch.csprojResolveAssemblyReference.cache
+E:\nada\Visual Studio 2017\Projects\BinarySearch\BinarySearch\obj\Debug\BinarySearch.exe
+E:\nada\Visual Studio 2017\Projects\BinarySearch\BinarySearch\obj\Debug\BinarySearch.pdb

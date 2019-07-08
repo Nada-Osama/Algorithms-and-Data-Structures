@@ -4,15 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BinarySearch
+namespace Algorithms
 {
     class SearchingAlgorithms<T>
     {
-        public static String Binary_Search (T[] list, T item)
+        public static String Binary_Search(T[] list, T item)
         {
             Comparer<T> comparer = Comparer<T>.Default;
             int mid, low = 0, high = list.Length - 1;
-            while ( low <= high )
+            while (low <= high)
             {
                 mid = (low + high) / 2;
                 if (comparer.Compare(list[mid], item) == 0)

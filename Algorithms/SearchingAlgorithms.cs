@@ -8,7 +8,7 @@ namespace Algorithms
 {
     class SearchingAlgorithms<T>
     {
-        public static String Binary_Search(T[] list, T item)
+        public static int Binary_Search (T[] list, T item)
         {
             Comparer<T> comparer = Comparer<T>.Default;
             int mid, low = 0, high = list.Length - 1;
@@ -16,13 +16,13 @@ namespace Algorithms
             {
                 mid = (low + high) / 2;
                 if (comparer.Compare(list[mid], item) == 0)
-                    return item + " found at index " + mid;
+                    return mid;
                 if (comparer.Compare(list[mid], item) > 0)
                     high = mid - 1;
                 else
                     low = mid + 1;
             }
-            return item + " not found in this list!";
+            return -1;
         }
     }
 }

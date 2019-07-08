@@ -1,0 +1,6 @@
+E:\nada\Visual Studio 2017\Projects\Algorithms\Algorithms\bin\Debug\Algorithms.exe.config
+E:\nada\Visual Studio 2017\Projects\Algorithms\Algorithms\bin\Debug\Algorithms.exe
+E:\nada\Visual Studio 2017\Projects\Algorithms\Algorithms\bin\Debug\Algorithms.pdb
+E:\nada\Visual Studio 2017\Projects\Algorithms\Algorithms\obj\Debug\Algorithms.csprojResolveAssemblyReference.cache
+E:\nada\Visual Studio 2017\Projects\Algorithms\Algorithms\obj\Debug\Algorithms.exe
+E:\nada\Visual Studio 2017\Projects\Algorithms\Algorithms\obj\Debug\Algorithms.pdb

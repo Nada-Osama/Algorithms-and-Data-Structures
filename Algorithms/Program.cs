@@ -11,14 +11,18 @@ namespace Algorithms
         static void Main(string[] args)
         {
             Console.Write("Enter the item you are searching for: ");
-            int numberExistence;
+            int numberExistence, position;
             String word;
-            String[] wordsList = { "name", "judgment", "office", "box", "fire" };
             int[] numbersList = { 1, 3, 5, 7, 9 };
-            Array.Sort(wordsList);
-            Array.Sort(numbersList);
-            word = Console.ReadLine();
-            Console.WriteLine(SearchingAlgorithms<String>.Binary_Search(wordsList, word));
+            String[] wordsList = { "Aa", "Bb", "Cc", "Dd", "Ee", "Ff", "Gg" };
+            numberExistence = int.Parse(Console.ReadLine());
+            position = SearchingAlgorithms<int>.Binary_Search(numbersList, numberExistence);
+            if (position == -1)
+                Console.WriteLine("{0} not found in this list!", numberExistence);
+            else
+            {
+                Console.WriteLine("{0} is found at index {1}", numberExistence, position);
+            }
         }
     }
 }

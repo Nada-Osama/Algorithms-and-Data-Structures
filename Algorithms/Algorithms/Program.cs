@@ -10,6 +10,9 @@ namespace Algorithms
     {
         static void Main(string[] args)
         {
+            ///<summary>
+            /// Binary Search testing.
+            ///</summary>
             Console.Write("Enter the item you are searching for: ");
             int numberExistence, position;
             String word;
@@ -23,6 +26,18 @@ namespace Algorithms
             {
                 Console.WriteLine("{0} is found at index {1}", numberExistence, position);
             }
+
+            //=============================================================================================
+
+            ///<summary>
+            /// Stack testing.
+            ///</summary>
+            string input;
+            Console.Write("Enter the string you want to reverse: ");
+            input = Console.ReadLine();
+            StackExample stk = new StackExample(input);
+            Console.WriteLine("Your string after reversing is: {0}", stk.Reverse());
+
         }
     }
 }
